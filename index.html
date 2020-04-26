@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Solomiia-form</title>
+  </head>
+  <body>
+   <form action="index.html" method="POST"></form>
+     <fieldset>
+      <legend>Registratiom form</legend>
+      <p>Who are you?</p>
+      <br />
+      <label for="email-id">Email:</label>
+      <input type="email" placeholder="Input your name" name="email" id="email-id" required>
+      <br>
+      <br> 
+      <label for="pwd-id">Password:</label>
+      <input type="password" placeholder="Minimum 5 characters" name="pwd" id="pwd-id" size="20" minlength="5" required>
+      <br>
+      <br>
+      <label for="fname-id">First name:</label>
+      <input type="text" placeholder="Input your first name" name="fname" id="fname-id"  required>
+      <br>
+      <br>
+      <label for="lname-id">Last name:</label>
+      <input type="text" placeholder="Input your last name" name="lname" id="lname-id" required>
+      <br>
+      <br>
+      <label for="age-id">Age:</label>
+      <input type="number" value="What's your age?" name="age" id="age-id" min="0" max="110" >
+      <br>
+      <br>
+      <p>Where are you from?</p>
+      <label for="country-id">Country:</label>
+      <select  name="country" id="country-id" required>
+      <option value="ua">Ukraine</option>
+      <option value="us">United states</option>
+      <option value="uk">United kingdom</option>
+      </select>
+      <br>
+      <br>
+      <p>What's your gender?</p>
+      <input type="radio" name="gender" id="male-id" value="male">
+      <label for="male-id">Male</label>
+      <br>
+      <input type="radio" name="gender" id="female-id" value="female">
+      <label for="female-id">Female</label> 
+      <br>
+      <input type="radio" name="gender" id="other-id" value="other">
+      <label for="other-id">Other</label>
+      <br>
+      <br>
+      <p>When where you born?</p> 
+      <br>
+      <label for="birthday-id">Birthday:</label>
+      <input type="date" name="birthday" id="birthday-id">
+      <br>
+      <br>
+      <input type="checkbox" name="privacy" value="privacy">
+      <label for="privacy-id">Do you agree to our privacy policy?</label>
+      <br>
+      <br>
+      <input type="submit" value="Submit">  
+    </fieldset>
+   </form> 
+  </body>
+</html>
